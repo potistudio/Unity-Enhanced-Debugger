@@ -1,0 +1,11 @@
+{
+  "name": "com.potistudio.enhanceddebugger",
+  "displayName": "Enhanced Debugger",
+  "version": "0.0.1",
+  "unity": "2023.2",
+  "description": "Enhance Unity Editor Debugging",
+  "author": {
+    "name": "POTI Studio"
+  },
+  "unityRelease": "11f1"
+}

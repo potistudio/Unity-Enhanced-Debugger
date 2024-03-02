@@ -1,3 +1,10 @@
 {
-  "dependencies": {}
+  "dependencies": {
+    "com.potistudio.enhanceddebugger": {
+      "version": "file:Enhanced Debugger",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {}
+    }
+  }
 }
