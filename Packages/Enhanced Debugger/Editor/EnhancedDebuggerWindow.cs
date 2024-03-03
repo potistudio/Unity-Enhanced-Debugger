@@ -1,10 +1,10 @@
 
 using UnityEngine.UIElements;
 
-public class Window : UnityEditor.EditorWindow {
+public class EnhancedDebuggerWindow : UnityEditor.EditorWindow {
 	[UnityEditor.MenuItem("Window/Enhanced Debugger", priority = 4000)]
 	private static void OpenWindow() {
-		Window window = GetWindow<Window>();
+		EnhancedDebuggerWindow window = GetWindow<EnhancedDebuggerWindow>();
 		window.titleContent = new UnityEngine.GUIContent (
 			"Enhanced Debugger",
 			UnityEditor.EditorGUIUtility.Load ("Profiler.Memory") as UnityEngine.Texture
