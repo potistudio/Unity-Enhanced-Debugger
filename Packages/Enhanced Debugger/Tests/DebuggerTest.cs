@@ -13,6 +13,7 @@ public class DebuggerTest {
 	public void DebugType() {
 		UnityEngine.Debug.Log (Debugger.GetType(m_TargetInstance));
 		UnityEngine.Debug.Log (Debugger.GetType(m_TargetInstance).Namespace);
+		Logger.Verbose ("DebugType");
 	}
 
 	[Test]
