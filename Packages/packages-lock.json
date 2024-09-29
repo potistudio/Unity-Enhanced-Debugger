@@ -1,6 +1,6 @@
 {
   "dependencies": {
-    "com.potistudio.enhanceddebugger": {
+    "com.potistudio.enhanced-debugger": {
       "version": "file:Enhanced Debugger",
       "depth": 0,
       "source": "embedded",
