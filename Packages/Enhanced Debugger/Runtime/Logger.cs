@@ -1,7 +1,7 @@
 public static class Logger {
 	public static void Verbose (object obj) {
 		Log log = new Log (obj, LogLevel.Verbose);
-		LogTracker.AddTracking (log);
+		LogTracker.AddLog (log);
 		UnityEngine.Debug.Log (obj);
 	}
 
